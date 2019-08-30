@@ -6,6 +6,6 @@ area1.print_area(20, 30)
 for i in range(11, 14+1):
     area1.print_area(i, 20)
 
-print("가로 30, 세로 10인 사각형의 넓이는", area1.print_area(30,10))
+print("가로 30, 세로 10인 사각형의 넓이는", area1.print_area(30, 10))
 print(area1.__name__)
 print(__name__)
