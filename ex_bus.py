@@ -5,12 +5,15 @@
 #20명 이상 혼잡
 
 #--------
+sum = 0
 while True:
     enter = input("탑승객을 입력해주세요(정류장 없으면 -1) : ")
+    if enter == "-1" :
+        break
     enter = int(enter)
     out = input("하차객을 입력해주세요 : ")
     out = int(out)
-    sum = enter - out
+    sum += enter - out
 #-------
 print("버스의 있는 사람수는 : ", sum)
 if 0 <=sum < 10:
