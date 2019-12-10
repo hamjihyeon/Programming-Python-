@@ -4,9 +4,9 @@ if __name__ == '__main__':
     #메모장 프로그램 실행하자
     pag.press("winleft")
     pag.press("hangul")
+
     pag.typewrite("apah")
     pag.press("enter")
-
     pag.sleep(1)
     #hello_world 치자
     pag.typewrite("Hello world")
